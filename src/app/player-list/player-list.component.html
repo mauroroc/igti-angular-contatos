@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    <span>Lista de Jogadores</span>
+</mat-toolbar>
+
+<mat-nav-list>
+<mat-list-item *ngFor="let player of players">
+    <a matLine [routerLink]="['/players', player.id]">{{player.nome}}</a>    
+    <button mat-icon-button (click)="deletePlayer(player)" >
+        <mat-icon>delete</mat-icon>
+    </button>
+</mat-list-item>
+</mat-nav-list>
+
+<a class="createButton" routerLink="/players/create" mat-fab color="primary" aria-label="Novo jogador">
+    <mat-icon>add</mat-icon>
+</a>

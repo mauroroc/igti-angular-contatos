@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <span>Edição de Jogador número {{id}}</span>
+</mat-toolbar>
+
+<form [formGroup]="playerForm" class="form" (ngSubmit)="updatePlayer()">
+    <mat-form-field appearance="standard">
+        <mat-label>Nome</mat-label>
+        <input matInput formControlName="nome">
+    </mat-form-field>
+    <mat-form-field appearance="standard">
+        <mat-label>Posição</mat-label>
+        <input matInput formControlName="posicao">
+    </mat-form-field>
+
+    <div class="actions">
+        <a routerLink="/players" mat-raised-button>Voltar</a>
+        <button mat-raised-button type="submit" [disabled]="!playerForm.dirty || playerForm.invalid" color="primary">Salvar</button>
+    </div>
+
+</form>

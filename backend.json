@@ -1,0 +1,74 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "nome": "Diego Alves",
+      "posicao": "Goleiro"
+    },
+    {
+      "id": 2,
+      "nome": "Isla",
+      "posicao": "Lateral"
+    },
+    {
+      "id": 3,
+      "nome": "Rodrigo Caio",
+      "posicao": "Zagueiro"
+    },
+    {
+      "id": 4,
+      "nome": "Gustavo Henrique",
+      "posicao": "Zagueiro"
+    },
+    {
+      "id": 5,
+      "nome": "Willian Arão",
+      "posicao": "Volante"
+    },
+    {
+      "id": 6,
+      "nome": "Filipe Luis",
+      "posicao": "Lateral"
+    },
+    {
+      "id": 7,
+      "nome": "Everton Ribeiro",
+      "posicao": "Meio Campista"
+    },
+    {
+      "id": 8,
+      "nome": "Gerson",
+      "posicao": "Volante"
+    },
+    {
+      "id": 9,
+      "nome": "Gabriel Barbosa",
+      "posicao": "Atacante"
+    },
+    {
+      "id": 10,
+      "nome": "De Arrascaeta",
+      "posicao": "Meio Campista"
+    },
+    {
+      "id": 11,
+      "nome": "Bruno Henrique",
+      "posicao": "Atacante"
+    },
+    {
+      "nome": "Hugo Souza",
+      "posicao": "Goleiro",
+      "id": 12
+    },
+    {
+      "nome": "Pedro",
+      "posicao": "Atacante",
+      "id": 13
+    },
+    {
+      "nome": "Diego",
+      "posicao": "Meio Campista",
+      "id": 15
+    }
+  ]
+}
